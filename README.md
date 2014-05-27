@@ -10,9 +10,11 @@ This library uses the font file made by Art. Lebedev Studio, which includes roub
 UILabel *labelView = [[RoubleLabel_TahomaBold alloc] initWithFrame:CGRectMake(0, 0, 40, 20)];
 [self.view addSubview: labelView];
 ```
-or simply set custom class in storyboard
+
+or simply set up the custom class in storyboard:
 
 ![storyboard example](https://github.com/sanchosrancho/UIRoubleLabel/raw/master/usage-via-storyboard.png "storyboard example")
+
 
 ### Supported fonts
 
