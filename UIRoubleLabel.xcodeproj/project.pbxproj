@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBA01A9F19348F7C00BA2733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA01A9E19348F7C00BA2733 /* Foundation.framework */; };
+		BBA01AA119348F7D00BA2733 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA01AA019348F7D00BA2733 /* CoreGraphics.framework */; };
+		BBA01AA319348F7D00BA2733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA01AA219348F7D00BA2733 /* UIKit.framework */; };
+		BBA01AA919348F7D00BA2733 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBA01AA719348F7D00BA2733 /* InfoPlist.strings */; };
+		BBA01AAB19348F7D00BA2733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA01AAA19348F7D00BA2733 /* main.m */; };
+		BBA01AAF19348F7D00BA2733 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA01AAE19348F7D00BA2733 /* AppDelegate.m */; };
+		BBA01AB219348F7D00BA2733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA01AB019348F7D00BA2733 /* Main.storyboard */; };
+		BBA01AB519348F7D00BA2733 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA01AB419348F7D00BA2733 /* ViewController.m */; };
+		BBA01AB719348F7D00BA2733 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA01AB619348F7D00BA2733 /* Images.xcassets */; };
+		BBA01ABE19348F7D00BA2733 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA01ABD19348F7D00BA2733 /* XCTest.framework */; };
+		BBA01ABF19348F7D00BA2733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA01A9E19348F7C00BA2733 /* Foundation.framework */; };
+		BBA01AC019348F7D00BA2733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA01AA219348F7D00BA2733 /* UIKit.framework */; };
+		BBA01AC819348F7D00BA2733 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBA01AC619348F7D00BA2733 /* InfoPlist.strings */; };
+		BBA01ACA19348F7D00BA2733 /* UIRoubleLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA01AC919348F7D00BA2733 /* UIRoubleLabelTests.m */; };
+		BBA01AD91934910E00BA2733 /* UIRoubleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA01AD81934910E00BA2733 /* UIRoubleLabel.m */; };
+		BBCD33411934971500AEC9AA /* rouble.otf in Resources */ = {isa = PBXBuildFile; fileRef = BBCD33401934971500AEC9AA /* rouble.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBA01AC119348F7D00BA2733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBA01A9319348F7C00BA2733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBA01A9A19348F7C00BA2733;
+			remoteInfo = UIRoubleLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBA01A9B19348F7C00BA2733 /* UIRoubleLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIRoubleLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA01A9E19348F7C00BA2733 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBA01AA019348F7D00BA2733 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBA01AA219348F7D00BA2733 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBA01AA619348F7D00BA2733 /* UIRoubleLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIRoubleLabel-Info.plist"; sourceTree = "<group>"; };
+		BBA01AA819348F7D00BA2733 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBA01AAA19348F7D00BA2733 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBA01AAC19348F7D00BA2733 /* UIRoubleLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIRoubleLabel-Prefix.pch"; sourceTree = "<group>"; };
+		BBA01AAD19348F7D00BA2733 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBA01AAE19348F7D00BA2733 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBA01AB119348F7D00BA2733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBA01AB319348F7D00BA2733 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBA01AB419348F7D00BA2733 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBA01AB619348F7D00BA2733 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBA01ABC19348F7D00BA2733 /* UIRoubleLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIRoubleLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA01ABD19348F7D00BA2733 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BBA01AC519348F7D00BA2733 /* UIRoubleLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIRoubleLabelTests-Info.plist"; sourceTree = "<group>"; };
+		BBA01AC719348F7D00BA2733 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBA01AC919348F7D00BA2733 /* UIRoubleLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIRoubleLabelTests.m; sourceTree = "<group>"; };
+		BBA01AD71934910E00BA2733 /* UIRoubleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIRoubleLabel.h; path = Lib/UIRoubleLabel/UIRoubleLabel.h; sourceTree = "<group>"; };
+		BBA01AD81934910E00BA2733 /* UIRoubleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIRoubleLabel.m; path = Lib/UIRoubleLabel/UIRoubleLabel.m; sourceTree = "<group>"; };
+		BBCD33401934971500AEC9AA /* rouble.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = rouble.otf; path = Lib/UIRoubleLabel/rouble.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBA01A9819348F7C00BA2733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA01AA119348F7D00BA2733 /* CoreGraphics.framework in Frameworks */,
+				BBA01AA319348F7D00BA2733 /* UIKit.framework in Frameworks */,
+				BBA01A9F19348F7C00BA2733 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA01AB919348F7D00BA2733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA01ABE19348F7D00BA2733 /* XCTest.framework in Frameworks */,
+				BBA01AC019348F7D00BA2733 /* UIKit.framework in Frameworks */,
+				BBA01ABF19348F7D00BA2733 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBA01A9219348F7C00BA2733 = {
+			isa = PBXGroup;
+			children = (
+				BBA01AA419348F7D00BA2733 /* UIRoubleLabel */,
+				BBA01AC319348F7D00BA2733 /* UIRoubleLabelTests */,
+				BBA01A9D19348F7C00BA2733 /* Frameworks */,
+				BBA01A9C19348F7C00BA2733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBA01A9C19348F7C00BA2733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBA01A9B19348F7C00BA2733 /* UIRoubleLabel.app */,
+				BBA01ABC19348F7D00BA2733 /* UIRoubleLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBA01A9D19348F7C00BA2733 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBA01A9E19348F7C00BA2733 /* Foundation.framework */,
+				BBA01AA019348F7D00BA2733 /* CoreGraphics.framework */,
+				BBA01AA219348F7D00BA2733 /* UIKit.framework */,
+				BBA01ABD19348F7D00BA2733 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBA01AA419348F7D00BA2733 /* UIRoubleLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BBA01AD5193490B500BA2733 /* Lib */,
+				BBA01AAD19348F7D00BA2733 /* AppDelegate.h */,
+				BBA01AAE19348F7D00BA2733 /* AppDelegate.m */,
+				BBA01AB019348F7D00BA2733 /* Main.storyboard */,
+				BBA01AB319348F7D00BA2733 /* ViewController.h */,
+				BBA01AB419348F7D00BA2733 /* ViewController.m */,
+				BBA01AB619348F7D00BA2733 /* Images.xcassets */,
+				BBA01AA519348F7D00BA2733 /* Supporting Files */,
+			);
+			path = UIRoubleLabel;
+			sourceTree = "<group>";
+		};
+		BBA01AA519348F7D00BA2733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBA01AA619348F7D00BA2733 /* UIRoubleLabel-Info.plist */,
+				BBA01AA719348F7D00BA2733 /* InfoPlist.strings */,
+				BBA01AAA19348F7D00BA2733 /* main.m */,
+				BBA01AAC19348F7D00BA2733 /* UIRoubleLabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBA01AC319348F7D00BA2733 /* UIRoubleLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBA01AC919348F7D00BA2733 /* UIRoubleLabelTests.m */,
+				BBA01AC419348F7D00BA2733 /* Supporting Files */,
+			);
+			path = UIRoubleLabelTests;
+			sourceTree = "<group>";
+		};
+		BBA01AC419348F7D00BA2733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBA01AC519348F7D00BA2733 /* UIRoubleLabelTests-Info.plist */,
+				BBA01AC619348F7D00BA2733 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBA01AD5193490B500BA2733 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				BBA01AD6193490C000BA2733 /* UIRoubleLabel */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		BBA01AD6193490C000BA2733 /* UIRoubleLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BBA01AD71934910E00BA2733 /* UIRoubleLabel.h */,
+				BBA01AD81934910E00BA2733 /* UIRoubleLabel.m */,
+				BBCD33401934971500AEC9AA /* rouble.otf */,
+			);
+			name = UIRoubleLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBA01A9A19348F7C00BA2733 /* UIRoubleLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA01ACD19348F7D00BA2733 /* Build configuration list for PBXNativeTarget "UIRoubleLabel" */;
+			buildPhases = (
+				BBA01A9719348F7C00BA2733 /* Sources */,
+				BBA01A9819348F7C00BA2733 /* Frameworks */,
+				BBA01A9919348F7C00BA2733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIRoubleLabel;
+			productName = UIRoubleLabel;
+			productReference = BBA01A9B19348F7C00BA2733 /* UIRoubleLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBA01ABB19348F7D00BA2733 /* UIRoubleLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA01AD019348F7D00BA2733 /* Build configuration list for PBXNativeTarget "UIRoubleLabelTests" */;
+			buildPhases = (
+				BBA01AB819348F7D00BA2733 /* Sources */,
+				BBA01AB919348F7D00BA2733 /* Frameworks */,
+				BBA01ABA19348F7D00BA2733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBA01AC219348F7D00BA2733 /* PBXTargetDependency */,
+			);
+			name = UIRoubleLabelTests;
+			productName = UIRoubleLabelTests;
+			productReference = BBA01ABC19348F7D00BA2733 /* UIRoubleLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBA01A9319348F7C00BA2733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sanchosrancho;
+				TargetAttributes = {
+					BBA01ABB19348F7D00BA2733 = {
+						TestTargetID = BBA01A9A19348F7C00BA2733;
+					};
+				};
+			};
+			buildConfigurationList = BBA01A9619348F7C00BA2733 /* Build configuration list for PBXProject "UIRoubleLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBA01A9219348F7C00BA2733;
+			productRefGroup = BBA01A9C19348F7C00BA2733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBA01A9A19348F7C00BA2733 /* UIRoubleLabel */,
+				BBA01ABB19348F7D00BA2733 /* UIRoubleLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBA01A9919348F7C00BA2733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA01AB719348F7D00BA2733 /* Images.xcassets in Resources */,
+				BBA01AA919348F7D00BA2733 /* InfoPlist.strings in Resources */,
+				BBCD33411934971500AEC9AA /* rouble.otf in Resources */,
+				BBA01AB219348F7D00BA2733 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA01ABA19348F7D00BA2733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA01AC819348F7D00BA2733 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBA01A9719348F7C00BA2733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA01AB519348F7D00BA2733 /* ViewController.m in Sources */,
+				BBA01AD91934910E00BA2733 /* UIRoubleLabel.m in Sources */,
+				BBA01AAF19348F7D00BA2733 /* AppDelegate.m in Sources */,
+				BBA01AAB19348F7D00BA2733 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA01AB819348F7D00BA2733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA01ACA19348F7D00BA2733 /* UIRoubleLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBA01AC219348F7D00BA2733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBA01A9A19348F7C00BA2733 /* UIRoubleLabel */;
+			targetProxy = BBA01AC119348F7D00BA2733 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBA01AA719348F7D00BA2733 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA01AA819348F7D00BA2733 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBA01AB019348F7D00BA2733 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA01AB119348F7D00BA2733 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBA01AC619348F7D00BA2733 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA01AC719348F7D00BA2733 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBA01ACB19348F7D00BA2733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBA01ACC19348F7D00BA2733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBA01ACE19348F7D00BA2733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRoubleLabel/UIRoubleLabel-Prefix.pch";
+				INFOPLIST_FILE = "UIRoubleLabel/UIRoubleLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBA01ACF19348F7D00BA2733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRoubleLabel/UIRoubleLabel-Prefix.pch";
+				INFOPLIST_FILE = "UIRoubleLabel/UIRoubleLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BBA01AD119348F7D00BA2733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIRoubleLabel.app/UIRoubleLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRoubleLabel/UIRoubleLabel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIRoubleLabelTests/UIRoubleLabelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BBA01AD219348F7D00BA2733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIRoubleLabel.app/UIRoubleLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRoubleLabel/UIRoubleLabel-Prefix.pch";
+				INFOPLIST_FILE = "UIRoubleLabelTests/UIRoubleLabelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBA01A9619348F7C00BA2733 /* Build configuration list for PBXProject "UIRoubleLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA01ACB19348F7D00BA2733 /* Debug */,
+				BBA01ACC19348F7D00BA2733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA01ACD19348F7D00BA2733 /* Build configuration list for PBXNativeTarget "UIRoubleLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA01ACE19348F7D00BA2733 /* Debug */,
+				BBA01ACF19348F7D00BA2733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA01AD019348F7D00BA2733 /* Build configuration list for PBXNativeTarget "UIRoubleLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA01AD119348F7D00BA2733 /* Debug */,
+				BBA01AD219348F7D00BA2733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBA01A9319348F7C00BA2733 /* Project object */;
+}
